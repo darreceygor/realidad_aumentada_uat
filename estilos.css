@@ -7,9 +7,7 @@
    padding: 0;
    box-sizing: border-box;
    font-family: 'Open Sans', sans-serif; /*especifico el nombre y familia de la tipografia a usar*/
-}
-html {
-  scroll-behavior: smooth; /*para desplazarse "scrolear" suavemente dentro de la página al presionar un enlace*/
+	 scroll-behavior: smooth; /*para desplazarse "scrolear" suavemente dentro de la página al presionar un enlace*/
 }
 /***************************************************/
 
@@ -20,7 +18,7 @@ html {
 header {/*caracteristicas elementos dentro del header de la pagina*/
 	font-size: 24px; /*tamaño de las fuentes que aprecen en el header*/
   	background-color: white;  /*color fondo encabezado*/
-    height: 130px;  /* altura del encabezado, equivale a 5.5em*/
+    height: 160px;  /* altura del encabezado, equivale a 5.5em*/
     padding-left: 10%; /*hago un espacio a la izquierda al interior del contenedor header de 10% del ancho del viewport*/
     padding-right: 10%; /*hago un espacio a la derecha al interior del contenedor header de 10% del ancho del viewport*/
   	box-shadow: 0px 1px 8px grey; /*efecto de material con sombreado sobre el fondo*/
@@ -44,7 +42,7 @@ header {
 }
 .identificador img{/*caracteristicas imagen identificadora dentro del contenedor con clase identificador*/
 	margin-top: 15px; /*un margen arriba de 15 px*/
-    height: 54.61px; /*ancho que tendra la imagen identificadora*/
+    height: 100px; /*ancho que tendra la imagen identificadora*/
 }
 .ligas-secciones{/*caracteristicas elementos en contenedor con la clase secciones*/
 	/*border: 5px solid #555;  /* For debugging */
